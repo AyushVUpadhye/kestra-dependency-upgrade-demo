@@ -1,0 +1,14 @@
+{
+  "name": "dep-gate-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "core-js": "2.5.7",
+    "lodash": "4.17.20",
+    "rimraf": "2.2.8",
+    "uuid": "3.4.0"
+  }
+}

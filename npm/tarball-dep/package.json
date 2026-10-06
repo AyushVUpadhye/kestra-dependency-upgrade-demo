@@ -1,0 +1,12 @@
+{
+  "name": "dep-gate-tarball-dep",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node -e \"require('is-number')\""
+  },
+  "dependencies": {
+    "is-number": "https://codeload.github.com/jonschlinkert/is-number/tar.gz/refs/tags/7.0.0",
+    "lodash": "4.17.20"
+  }
+}
